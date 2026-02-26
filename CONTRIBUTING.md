@@ -1,10 +1,10 @@
-# Contributing to DevRecess Skills
+# Contributing to DevRecess Sessions
 
 Thanks for your interest in contributing! Here's how you can help.
 
-## Requesting New Skills
+## Requesting New Sessions
 
-Open an issue with the `skill-request` label and include:
+Open an issue with the `session-request` label and include:
 
 - **Subject** you want covered
 - **Setting** preference (or suggest a new one)
@@ -30,7 +30,7 @@ Open an issue with the session name and a description of the problem.
 
 ## Suggesting New Settings or Dimensions
 
-Open an issue with the `session-request` label and include:
+Open an issue with the `dimension-request` label and include:
 
 - **Setting name** and description
 - **Visual style** direction (what should the world look like?)

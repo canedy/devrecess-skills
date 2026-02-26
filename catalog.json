@@ -14,7 +14,7 @@
       "tone": "epic",
       "difficulty": "beginner",
       "description": "Interactive narrative learning session that teaches Bun through a Space Station adventure at beginner level. Use this session when you want to learn Bun through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
-      "path": "skills/learn-bun-space-station-beginner/SKILL.md"
+      "path": "sessions/learn-bun-space-station-beginner/SKILL.md"
     },
     {
       "name": "learn-docker-noir-city-beginner",
@@ -27,7 +27,7 @@
       "tone": "gritty",
       "difficulty": "beginner",
       "description": "Interactive narrative learning session that teaches Docker through a Noir City adventure at beginner level. Use this session when you want to learn Docker through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
-      "path": "skills/learn-docker-noir-city-beginner/SKILL.md"
+      "path": "sessions/learn-docker-noir-city-beginner/SKILL.md"
     },
     {
       "name": "learn-kubernetes-space-station-intermediate",
@@ -40,7 +40,7 @@
       "tone": "epic",
       "difficulty": "intermediate",
       "description": "Interactive narrative learning session that teaches Kubernetes through a Space Station adventure at intermediate level. Use this session when you want to learn Kubernetes through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
-      "path": "skills/learn-kubernetes-space-station-intermediate/SKILL.md"
+      "path": "sessions/learn-kubernetes-space-station-intermediate/SKILL.md"
     },
     {
       "name": "learn-mastra-fantasy-realm-intermediate",
@@ -53,7 +53,7 @@
       "tone": "whimsical",
       "difficulty": "intermediate",
       "description": "Interactive narrative learning session that teaches Mastra through a Fantasy Realm adventure at intermediate level. Use this session when you want to learn Mastra through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
-      "path": "skills/learn-mastra-fantasy-realm-intermediate/SKILL.md"
+      "path": "sessions/learn-mastra-fantasy-realm-intermediate/SKILL.md"
     },
     {
       "name": "learn-c-cpp-dark-fantasy-advanced",
@@ -66,7 +66,7 @@
       "tone": "urgent",
       "difficulty": "advanced",
       "description": "Interactive narrative learning session that teaches C/C++ through a Dark Fantasy adventure at advanced level. Use this session when you want to learn C/C++ through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
-      "path": "skills/learn-c-cpp-dark-fantasy-advanced/SKILL.md"
+      "path": "sessions/learn-c-cpp-dark-fantasy-advanced/SKILL.md"
     }
   ]
 }

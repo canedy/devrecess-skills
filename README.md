@@ -1,4 +1,4 @@
-# DevRecess Skills
+# DevRecess Sessions
 
 Learn technology through interactive, narrative-driven adventures. Each session is a self-contained learning guide that transforms your AI assistant into an immersive tutor -- complete with story-driven chapters, hands-on coding exercises, and real documentation.
 
@@ -69,7 +69,7 @@ Each session takes place in one of 5 world settings, paired with composable conf
 - **Think First pattern** -- Questions before code build deeper understanding
 - **Real documentation** -- All code examples sourced from official, up-to-date docs via Context7
 - **Progressive difficulty** -- Beginner guides hand-hold, Advanced guides challenge
-- **Agent Skills format** -- Compatible with Claude Code, Claude.ai Projects, and any AI chat
+- **Agent Skills compatible** -- Works with Claude Code, Claude.ai Projects, and any AI chat
 - **Cross-LLM consistency** -- Anti-drift headers and structural markers ensure consistent delivery
 
 ## Want a Custom Story?

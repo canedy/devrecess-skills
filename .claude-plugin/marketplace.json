@@ -1,11 +1,11 @@
 {
-  "name": "devrecess-skills",
-  "description": "Interactive narrative learning skills for DevRecess. Learn technologies through immersive story adventures with missions, comic panels, and hands-on coding.",
+  "name": "devrecess-sessions",
+  "description": "Interactive narrative learning sessions for DevRecess. Learn technologies through immersive story adventures with hands-on coding.",
   "plugins": [
     {
-      "name": "devrecess-learning-skills",
-      "description": "Learn Bun, Docker, Kubernetes, React, TypeScript, Node.js, Python, Next.js, Go, Mastra, C/C++, and Stagehand through interactive story-driven adventures. Each skill transforms Claude into a narrative learning guide with story-driven chapters, hands-on exercises, and real documentation.",
-      "skills_glob": "skills/*/SKILL.md"
+      "name": "devrecess-learning-sessions",
+      "description": "Learn Bun, Docker, Kubernetes, React, TypeScript, Node.js, Python, Next.js, Go, Mastra, C/C++, and Stagehand through interactive story-driven adventures. Each session transforms Claude into a narrative learning guide with story-driven chapters, hands-on exercises, and real documentation.",
+      "skills_glob": "sessions/*/SKILL.md"
     }
   ]
 }
