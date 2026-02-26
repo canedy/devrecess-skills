@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-02-26T20:58:16.762Z",
+  "generatedAt": "2026-02-26T21:17:17.929Z",
   "totalSessions": 6,
   "sessions": [
     {
@@ -14,7 +14,8 @@
       "tone": "epic",
       "difficulty": "beginner",
       "description": "Interactive narrative learning session that teaches Bun through a Space Station adventure at beginner level. Use this session when you want to learn Bun through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
-      "path": "sessions/learn-bun-space-station-beginner/SKILL.md"
+      "path": "sessions/learn-bun-space-station-beginner/SKILL.md",
+      "qualityScore": 6.8
     },
     {
       "name": "learn-docker-noir-city-beginner",
@@ -27,7 +28,8 @@
       "tone": "gritty",
       "difficulty": "beginner",
       "description": "Interactive narrative learning session that teaches Docker through a Noir City adventure at beginner level. Use this session when you want to learn Docker through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
-      "path": "sessions/learn-docker-noir-city-beginner/SKILL.md"
+      "path": "sessions/learn-docker-noir-city-beginner/SKILL.md",
+      "qualityScore": 6.8
     },
     {
       "name": "learn-kubernetes-space-station-intermediate",
@@ -40,7 +42,8 @@
       "tone": "epic",
       "difficulty": "intermediate",
       "description": "Interactive narrative learning session that teaches Kubernetes through a Space Station adventure at intermediate level. Use this session when you want to learn Kubernetes through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
-      "path": "sessions/learn-kubernetes-space-station-intermediate/SKILL.md"
+      "path": "sessions/learn-kubernetes-space-station-intermediate/SKILL.md",
+      "qualityScore": 6.8
     },
     {
       "name": "learn-mastra-fantasy-realm-intermediate",
@@ -53,7 +56,8 @@
       "tone": "whimsical",
       "difficulty": "intermediate",
       "description": "Interactive narrative learning session that teaches Mastra through a Fantasy Realm adventure at intermediate level. Use this session when you want to learn Mastra through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
-      "path": "sessions/learn-mastra-fantasy-realm-intermediate/SKILL.md"
+      "path": "sessions/learn-mastra-fantasy-realm-intermediate/SKILL.md",
+      "qualityScore": 6.8
     },
     {
       "name": "learn-c-cpp-dark-fantasy-advanced",
@@ -66,7 +70,8 @@
       "tone": "urgent",
       "difficulty": "advanced",
       "description": "Interactive narrative learning session that teaches C/C++ through a Dark Fantasy adventure at advanced level. Use this session when you want to learn C/C++ through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
-      "path": "sessions/learn-c-cpp-dark-fantasy-advanced/SKILL.md"
+      "path": "sessions/learn-c-cpp-dark-fantasy-advanced/SKILL.md",
+      "qualityScore": 6.8
     },
     {
       "name": "learn-react-modern-underworld-beginner",
@@ -79,7 +84,8 @@
       "tone": "dry-wit",
       "difficulty": "beginner",
       "description": "Interactive narrative learning session that teaches React through a Modern Underworld adventure at beginner level. Use this session when you want to learn React through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
-      "path": "sessions/learn-react-modern-underworld-beginner/SKILL.md"
+      "path": "sessions/learn-react-modern-underworld-beginner/SKILL.md",
+      "qualityScore": 7.2
     }
   ]
 }
