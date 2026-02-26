@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-02-26T00:00:00Z",
-  "totalSessions": 5,
+  "generatedAt": "2026-02-26T20:58:16.762Z",
+  "totalSessions": 6,
   "sessions": [
     {
       "name": "learn-bun-space-station-beginner",
@@ -67,6 +67,19 @@
       "difficulty": "advanced",
       "description": "Interactive narrative learning session that teaches C/C++ through a Dark Fantasy adventure at advanced level. Use this session when you want to learn C/C++ through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
       "path": "sessions/learn-c-cpp-dark-fantasy-advanced/SKILL.md"
+    },
+    {
+      "name": "learn-react-modern-underworld-beginner",
+      "subject": "React",
+      "subjectKey": "react",
+      "category": "technology",
+      "setting": "modern-underworld",
+      "conflict": "heist-infiltration",
+      "archetype": "team-ensemble",
+      "tone": "dry-wit",
+      "difficulty": "beginner",
+      "description": "Interactive narrative learning session that teaches React through a Modern Underworld adventure at beginner level. Use this session when you want to learn React through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
+      "path": "sessions/learn-react-modern-underworld-beginner/SKILL.md"
     }
   ]
 }

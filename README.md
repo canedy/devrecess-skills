@@ -38,7 +38,7 @@ Learn technology through interactive, narrative-driven adventures. Each session 
 | **Kubernetes** | Space Station | Coming soon | [Intermediate](sessions/learn-kubernetes-space-station-intermediate/SKILL.md) | Coming soon |
 | **Mastra** | Fantasy Realm | Coming soon | [Intermediate](sessions/learn-mastra-fantasy-realm-intermediate/SKILL.md) | Coming soon |
 | **C/C++** | Dark Fantasy | Coming soon | Coming soon | [Advanced](sessions/learn-c-cpp-dark-fantasy-advanced/SKILL.md) |
-| **React** | Modern Underworld | Coming soon | Coming soon | Coming soon |
+| **React** | Modern Underworld | [Beginner](sessions/learn-react-modern-underworld-beginner/SKILL.md) | Coming soon | Coming soon |
 | **TypeScript** | Noir City | Coming soon | Coming soon | Coming soon |
 | **Node.js** | Space Station | Coming soon | Coming soon | Coming soon |
 | **Python** | Fantasy Realm | Coming soon | Coming soon | Coming soon |
@@ -46,8 +46,7 @@ Learn technology through interactive, narrative-driven adventures. Each session 
 | **Go** | Dark Fantasy | Coming soon | Coming soon | Coming soon |
 | **Stagehand** | Space Station | Coming soon | Coming soon | Coming soon |
 
-**5 of 36 sessions available.** New sessions added regularly.
-
+**6 of 36 sessions available.** New sessions added regularly.
 ## Settings
 
 Each session takes place in one of 5 world settings, paired with composable conflict types, character archetypes, and tones:

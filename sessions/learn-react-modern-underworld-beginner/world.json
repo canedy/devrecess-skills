@@ -1,0 +1,96 @@
+{
+  "premise": "The Meridian Gallery heist was supposed to be routine—a simple data extraction from their client database. But when the crew's interface specialist vanished three days before the job, veteran handler Maya Chen found herself with a problem: a custom security system that changes its layout every six hours, and no one left who speaks its language. Enter you, the newest addition to Chen's crew. You've got the basics down, but building the dynamic interface tools needed to crack Meridian's adaptive defenses? That's going to require some creative problem-solving.\n\nThe target is a high-end art gallery that's really a front for money laundering. Their security system rebuilds its user interface in real-time, making it nearly impossible to crack with static tools. Your job is to construct a flexible, component-based infiltration kit that can adapt as quickly as their defenses change. The crew has forty-eight hours to prep, and Chen's reputation—along with a seven-figure payday—hangs in the balance.",
+  "worldRules": [
+    "Every interface component must be reusable and modular—no single-use tools",
+    "The security system adapts every six hours, so your tools must adapt faster",
+    "Each crew member's specialty is essential; the job fails if anyone can't deliver",
+    "Information flows through secure channels only—no direct communication during execution",
+    "The plan succeeds or fails based on how well the components work together"
+  ],
+  "centralQuestion": "Can you build a modular interface system that adapts faster than Meridian's defenses?",
+  "protagonist": {
+    "name": "Alex",
+    "role": "Interface Specialist",
+    "personality": "Methodical but eager to prove themselves, asks good questions",
+    "motivation": "Wants to earn their place on Chen's crew and prove they can handle complex jobs",
+    "arc": "From nervous newcomer following instructions to confident specialist designing solutions the whole crew depends on"
+  },
+  "guide": {
+    "name": "Maya Chen",
+    "role": "Handler and Crew Coordinator",
+    "personality": "Dry, precise, and unflappable—delivers devastating observations with perfect calm",
+    "motivation": "Maintains her reputation for impossible jobs by ensuring every crew member performs flawlessly",
+    "relationship": "Pragmatic mentor who assigns real responsibility and expects professional results"
+  },
+  "supportingCast": [
+    {
+      "name": "Viktor",
+      "role": "Systems Architect",
+      "personality": "Perfectionist who thinks in blueprints and contingencies",
+      "motivation": "Designs elegant solutions that account for every possible failure mode"
+    },
+    {
+      "name": "Sam",
+      "role": "Field Operative",
+      "personality": "Practical and direct, focused on what works under pressure",
+      "motivation": "Needs tools that won't fail when the plan inevitably goes sideways"
+    },
+    {
+      "name": "Riley",
+      "role": "Data Analyst",
+      "personality": "Detail-oriented pattern spotter who catches what others miss",
+      "motivation": "Provides the intelligence that makes the impossible jobs possible"
+    }
+  ],
+  "antagonist": {
+    "name": "Meridian Adaptive Security Protocol",
+    "role": "Self-Modifying Defense System",
+    "personality": "Relentless, unpredictable, learns from every intrusion attempt",
+    "motivation": "Protect the gallery's data by staying one step ahead of any infiltration tools"
+  },
+  "locations": [
+    {
+      "name": "The Workshop",
+      "description": "Chen's converted warehouse space filled with monitors, component libraries, and testing rigs",
+      "storyFunction": "Where Alex learns to build and test modular interface components"
+    },
+    {
+      "name": "Meridian Gallery",
+      "description": "Sleek art gallery with hidden servers and adaptive security nodes throughout",
+      "storyFunction": "The target location where the final infiltration takes place"
+    },
+    {
+      "name": "Mobile Command",
+      "description": "Surveillance van parked three blocks from Meridian, packed with communication gear",
+      "storyFunction": "Mission control during execution, where the crew coordinates the live operation"
+    },
+    {
+      "name": "The Simulation Lab",
+      "description": "Isolated testing environment that mimics Meridian's security behavior",
+      "storyFunction": "Safe space to rehearse component integration and test failure scenarios"
+    },
+    {
+      "name": "Rooftop Extraction",
+      "description": "Emergency exit point with clear sightlines and multiple escape routes",
+      "storyFunction": "Final location where success or failure becomes clear"
+    }
+  ],
+  "vocabulary": [
+    "component",
+    "handler",
+    "payload",
+    "extraction",
+    "blueprint",
+    "recon",
+    "countermeasure",
+    "window",
+    "crew",
+    "mark",
+    "interface",
+    "module",
+    "adaptive",
+    "infiltration",
+    "protocol"
+  ],
+  "visualStyle": "Sharp contrasts between the warm amber glow of workshop monitors and the cold blue security lighting of the target. Technical blueprints and component diagrams overlay dark environments. Clean geometric interfaces float against textured backgrounds of concrete, steel, and glass. Color coding distinguishes different system states—green for functional components, red for triggered alarms, amber for adaptive changes in progress."
+}
