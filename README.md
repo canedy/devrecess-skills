@@ -47,6 +47,7 @@ Learn technology through interactive, narrative-driven adventures. Each session 
 | **Stagehand** | Space Station | Coming soon | Coming soon | Coming soon |
 
 **6 of 36 sessions available.** New sessions added regularly.
+
 ## Settings
 
 Each session takes place in one of 5 world settings, paired with composable conflict types, character archetypes, and tones:
@@ -71,7 +72,7 @@ Each session takes place in one of 5 world settings, paired with composable conf
 
 ## Want a Custom Story?
 
-These pre-built sessions cover common combinations. If you want a session customized for your exact stack, learning style, and preferences, check out [devrecess.com](https://devrecess.com) for custom story generation.
+These pre-built sessions cover common combinations. If you want a session customized for your exact stack, learning style, and preferences, check out [DevRecess](https://devrecess.fly.dev/) and sign up on the waitlist for custom story generation.
 
 ## Contributing
 
