@@ -1,14 +1,14 @@
 # DevRecess Skills
 
-Learn technology through interactive, narrative-driven adventures. Each skill is a self-contained learning guide that transforms your AI assistant into an immersive tutor -- complete with missions, comic panel visuals, and hands-on coding exercises grounded in real documentation.
+Learn technology through interactive, narrative-driven adventures. Each session is a self-contained learning guide that transforms your AI assistant into an immersive tutor -- complete with story-driven chapters, hands-on coding exercises, and real documentation.
 
 ## How It Works
 
-1. **Pick a skill** from the table below
+1. **Pick a session** from the table below
 2. **Open it** in your AI assistant of choice
 3. **Start learning** through an interactive story adventure
 
-## Using These Skills
+## Using These Sessions
 
 ### Claude Code
 
@@ -29,54 +29,58 @@ Learn technology through interactive, narrative-driven adventures. Each skill is
 2. Paste it as the first message in a new conversation
 3. The AI will take it from there
 
-## Available Skills
+## Available Sessions
 
-Skills marked with a link are available now. Others are coming soon.
+All sessions are being regenerated with the new v2 story-first engine. Check back soon.
 
-| Technology | Theme | Beginner | Intermediate | Advanced |
+| Subject | Setting | Beginner | Intermediate | Advanced |
 |---|---|---|---|---|
-| **Bun** | Space | [Start](skills/learn-bun-space-beginner/SKILL.md) | [Start](skills/learn-bun-space-intermediate/SKILL.md) | [Start](skills/learn-bun-space-advanced/SKILL.md) |
-| **Docker** | Detective | [Start](skills/learn-docker-detective-beginner/SKILL.md) | [Start](skills/learn-docker-detective-intermediate/SKILL.md) | [Start](skills/learn-docker-detective-advanced/SKILL.md) |
-| **Kubernetes** | Space | [Start](skills/learn-kubernetes-space-beginner/SKILL.md) | [Start](skills/learn-kubernetes-space-intermediate/SKILL.md) | [Start](skills/learn-kubernetes-space-advanced/SKILL.md) |
-| **Mastra** | RPG | [Start](skills/learn-mastra-rpg-beginner/SKILL.md) | [Start](skills/learn-mastra-rpg-intermediate/SKILL.md) | [Start](skills/learn-mastra-rpg-advanced/SKILL.md) |
-| **C/C++** | Action RPG | Coming soon | Coming soon | Coming soon |
-| **React** | Heist | [Start](skills/learn-react-heist-beginner/SKILL.md) | [Start](skills/learn-react-heist-intermediate/SKILL.md) | Coming soon |
-| **TypeScript** | Detective | Coming soon | Coming soon | Coming soon |
-| **Node.js** | Space | Coming soon | Coming soon | Coming soon |
-| **Python** | RPG | [Start](skills/learn-python-rpg-beginner/SKILL.md) | Coming soon | Coming soon |
-| **Next.js** | Heist | Coming soon | Coming soon | Coming soon |
-| **Go** | Action RPG | Coming soon | Coming soon | Coming soon |
+| **Bun** | Space Station | Coming soon | Coming soon | Coming soon |
+| **Docker** | Noir City | Coming soon | Coming soon | Coming soon |
+| **Kubernetes** | Space Station | Coming soon | Coming soon | Coming soon |
+| **Mastra** | Fantasy Realm | Coming soon | Coming soon | Coming soon |
+| **C/C++** | Dark Fantasy | Coming soon | Coming soon | Coming soon |
+| **React** | Modern Underworld | Coming soon | Coming soon | Coming soon |
+| **TypeScript** | Noir City | Coming soon | Coming soon | Coming soon |
+| **Node.js** | Space Station | Coming soon | Coming soon | Coming soon |
+| **Python** | Fantasy Realm | Coming soon | Coming soon | Coming soon |
+| **Next.js** | Modern Underworld | Coming soon | Coming soon | Coming soon |
+| **Go** | Dark Fantasy | Coming soon | Coming soon | Coming soon |
+| **Stagehand** | Space Station | Coming soon | Coming soon | Coming soon |
 
-**15 of 33 skills available.** The rest are being generated and will be added shortly.
+**0 of 36 sessions available.** Sessions are being regenerated with the new story-first engine.
 
-## Themes
+## Settings
 
-| Theme | Vibe | Best For |
+Each session takes place in one of 5 world settings, paired with composable conflict types, character archetypes, and tones:
+
+| Setting | Vibe | Best For |
 |---|---|---|
-| **Space** | Sci-fi adventure, starship systems to restore | Runtimes, servers, systems |
-| **Detective** | Noir mystery, clues to uncover | Debugging, type systems, analysis |
-| **RPG** | Fantasy quest, spells to master | Languages, frameworks, AI |
-| **Heist** | Thriller, phases to execute | Frontend, full-stack, APIs |
-| **Action RPG** | Dark fantasy, enemies to defeat | Systems programming, concurrency |
+| **Space Station** | Sci-fi adventure, systems to restore | Runtimes, servers, systems |
+| **Noir City** | Mystery, clues to uncover | Debugging, type systems, analysis |
+| **Fantasy Realm** | Quest, spells to master | Languages, frameworks, AI |
+| **Modern Underworld** | Thriller, phases to execute | Frontend, full-stack, APIs |
+| **Dark Fantasy** | Combat, enemies to defeat | Systems programming, concurrency |
 
 ## What Makes These Different
 
-- **Narrative-driven** -- You're not reading docs, you're on a mission
-- **Comic panel visuals** -- AI-generated scene art at key moments
+- **Story-first** -- You're not reading docs, you're living a narrative
+- **Four-pass pipeline** -- World building, arc planning, content generation, and narrative review
 - **Think First pattern** -- Questions before code build deeper understanding
 - **Real documentation** -- All code examples sourced from official, up-to-date docs via Context7
 - **Progressive difficulty** -- Beginner guides hand-hold, Advanced guides challenge
 - **Agent Skills format** -- Compatible with Claude Code, Claude.ai Projects, and any AI chat
+- **Cross-LLM consistency** -- Anti-drift headers and structural markers ensure consistent delivery
 
 ## Want a Custom Story?
 
-These pre-built skills cover common combinations. If you want a skill customized for your exact stack, learning style, and preferences, check out [devrecess.com](https://devrecess.com) for custom story generation.
+These pre-built sessions cover common combinations. If you want a session customized for your exact stack, learning style, and preferences, check out [devrecess.com](https://devrecess.com) for custom story generation.
 
 ## Contributing
 
 We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for details on:
-- Requesting new technologies or themes
-- Improving existing skills
+- Requesting new subjects or settings
+- Improving existing sessions
 - Reporting issues with documentation accuracy
 
 ## License

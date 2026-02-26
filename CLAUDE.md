@@ -4,59 +4,72 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This repo contains free, open-source narrative-driven learning skills for developers. Each skill is a SKILL.md file in the [Anthropic Agent Skills](https://github.com/anthropics/skills) format that transforms an AI assistant (Claude, ChatGPT, etc.) into an immersive learning guide with missions, comic panel visuals, and hands-on coding exercises grounded in real documentation.
+This repo contains free, open-source narrative-driven learning sessions for developers. Each session is a SKILL.md file in the [Anthropic Agent Skills](https://github.com/anthropics/skills) format that transforms an AI assistant (Claude, ChatGPT, etc.) into an immersive learning guide with story-driven chapters, hands-on coding exercises, and real documentation.
 
 ## Three-Repo Architecture
 
 | Repo | Purpose |
 |---|---|
-| **devrecess** | Marketing site (Hono + React + Tailwind) |
-| **devrecess-skills** (this repo) | Generated Agent Skills (SKILL.md files) |
-| **devrecess-engine** | Generation pipeline that produces skills |
+| **document-adventures** | Marketing site (Hono + React + Tailwind) |
+| **devrecess-skills** (this repo) | Generated sessions (SKILL.md files) hosted on GitHub |
+| **devrecess-engine** | Generation pipeline that produces sessions |
 
-Skills in this repo are **generated output** from the engine. Manual edits are welcome for fixing bugs or improving content, but new skills should be generated through the engine.
+Sessions in this repo are **generated output** from the engine's four-pass pipeline. Manual edits are welcome for fixing bugs or improving content, but new sessions should be generated through the engine.
 
 ## Repository Structure
 
 ```
 skills/
-├── learn-bun-space-beginner/
+├── learn-docker-noir-city-beginner/
 │   └── SKILL.md
-├── learn-bun-space-intermediate/
-│   └── SKILL.md
-├── learn-docker-detective-beginner/
+├── learn-react-modern-underworld-beginner/
 │   └── SKILL.md
 └── ...
 
-catalog.json              # Machine-readable index of all skills
+catalog.json              # Machine-readable index of all sessions
 .claude-plugin/
 └── marketplace.json      # Makes this repo installable as a Claude Code plugin
 ```
 
-## Skill Format
+## Session Format
 
-Each SKILL.md follows the Agent Skills spec:
+Each SKILL.md follows the Agent Skills spec and is produced by the engine's four-pass pipeline (world building, arc planning, content generation, narrative review):
 
 ```markdown
 ---
-name: learn-bun-space-beginner
-description: Interactive narrative learning guide that teaches Bun through a Space adventure...
+name: learn-docker-noir-city-beginner
+description: Interactive narrative learning session that teaches Docker through a Noir City adventure...
 ---
 
-[Narrative guide content: story setup, missions, Think First questions, comic panels, etc.]
+[Anti-drift header + full narrative session with chapters, dialogue, tasks, and resolution]
 ```
 
 ## Naming Convention
 
-Skills are named: `learn-{technology}-{theme}-{difficulty}`
+Sessions are named: `learn-{subject}-{setting}-{difficulty}`
 
 | Component | Values |
 |---|---|
-| technology | `bun`, `docker`, `kubernetes`, `mastra`, `c-cpp`, `react`, `typescript`, `nodejs`, `python`, `nextjs`, `go` |
-| theme | `space`, `detective`, `rpg`, `heist`, `action-rpg` |
+| subject | `bun`, `docker`, `kubernetes`, `mastra`, `c-cpp`, `react`, `typescript`, `nodejs`, `python`, `nextjs`, `go`, `stagehand` |
+| setting | `space-station`, `noir-city`, `fantasy-realm`, `modern-underworld`, `dark-fantasy` |
 | difficulty | `beginner`, `intermediate`, `advanced` |
 
-## How Users Access Skills
+**12 subjects x 3 difficulties = 36 total sessions**
+
+## Composable Theme Dimensions
+
+Each session is built from 4 independent dimensions (configured in the engine):
+
+| Dimension | Options | What It Controls |
+|---|---|---|
+| **Setting** | space-station, noir-city, fantasy-realm, modern-underworld, dark-fantasy | World rules, locations, visual palette, vocabulary, metaphor mappings |
+| **Conflict** | mystery-discovery, survival-urgency, heist-infiltration, quest-journey, survival-combat | Plot shape, stakes, tension pattern, resolution style |
+| **Archetype** | mentor-student, team-ensemble, lone-wolf | Character relationships, dialogue patterns, growth markers |
+| **Tone** | epic, gritty, whimsical, dry-wit, urgent | Vocabulary register, humor, emotional range, sentence style |
+
+The specific combination of dimensions for each subject is defined in the engine's recipe configuration.
+
+## How Users Access Sessions
 
 1. **Claude Code:** Install via `/plugin install canedy/devrecess-skills`
 2. **Claude.ai:** Upload a SKILL.md to a Project's knowledge
@@ -64,13 +77,28 @@ Skills are named: `learn-{technology}-{theme}-{difficulty}`
 
 ## catalog.json
 
-A machine-readable index of all skills, used by the marketing site to display the browsable grid. Contains `name`, `technology`, `theme`, `difficulty`, `description`, and `path` for each skill.
+A machine-readable index of all sessions (v2 schema), used by the marketing site's `/api/skills` endpoint (fetched via GitHub raw URL). Contains `version`, `generatedAt`, `totalSessions`, and a `sessions` array.
 
-Regenerate it when skills are added or removed using the engine's batch script, or manually update it.
+## Adding a Generated Session to This Repo
+
+Sessions are generated by the engine repo (`../devrecess-engine`). After generation, the steps in this repo are:
+
+1. **Copy the session folder** from the engine's `output/sessions/` directory:
+   ```bash
+   cp -r ../devrecess-engine/output/sessions/learn-newtool-setting-difficulty  skills/
+   ```
+
+2. **Update `catalog.json`** -- Add an entry for each new session and update `totalSessions`.
+
+3. **Update this CLAUDE.md** -- Add the new subject key to the naming convention table above if it's a new subject.
+
+4. **Update the marketing site** -- Add entries to `site-config.json` in the `../document-adventures` repo (see that repo's CLAUDE.md for details).
+
+For the full end-to-end workflow (starting from the engine), see `../devrecess-engine/CLAUDE.md` under "Adding a New Subject (Full Cross-Repo Workflow)".
 
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
-- Requesting new technologies or themes
-- Fixing issues with existing skills (outdated APIs, broken examples)
+- Requesting new subjects or settings
+- Fixing issues with existing sessions (outdated APIs, broken examples)
 - Improving content quality

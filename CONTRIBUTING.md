@@ -6,36 +6,36 @@ Thanks for your interest in contributing! Here's how you can help.
 
 Open an issue with the `skill-request` label and include:
 
-- **Technology** you want covered
-- **Theme** preference (or suggest a new one)
+- **Subject** you want covered
+- **Setting** preference (or suggest a new one)
 - **Difficulty level** (beginner, intermediate, advanced)
 - **Why** this combination would be valuable
 
 ## Reporting Issues
 
-If you find issues with an existing skill:
+If you find issues with an existing session:
 
 - **Outdated documentation** — APIs or syntax that no longer work
 - **Incorrect examples** — Code that doesn't compile or run
-- **Unclear instructions** — Confusing mission steps
-- **Theme inconsistencies** — Narrative that breaks immersion
+- **Unclear instructions** — Confusing chapter steps
+- **Setting inconsistencies** — Narrative that breaks immersion
 
-Open an issue with the skill name and a description of the problem.
+Open an issue with the session name and a description of the problem.
 
-## Improving Existing Skills
+## Improving Existing Sessions
 
 1. Fork the repository
-2. Edit the `SKILL.md` file in the relevant skill folder
+2. Edit the `SKILL.md` file in the relevant session folder
 3. Submit a pull request with a clear description of what you changed and why
 
-## Suggesting New Themes
+## Suggesting New Settings or Dimensions
 
-Open an issue with the `theme-request` label and include:
+Open an issue with the `session-request` label and include:
 
-- **Theme name** and description
-- **Visual style** direction (what should comic panels look like?)
-- **Role suggestions** for the user and AI guide
-- **Which technologies** it pairs well with
+- **Setting name** and description
+- **Visual style** direction (what should the world look like?)
+- **Conflict type, archetype, or tone** suggestions
+- **Which subjects** it pairs well with
 
 ## Code of Conduct
 

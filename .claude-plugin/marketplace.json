@@ -4,7 +4,7 @@
   "plugins": [
     {
       "name": "devrecess-learning-skills",
-      "description": "Learn Bun, Docker, Kubernetes, React, TypeScript, Node.js, Python, Next.js, Go, Mastra, and C/C++ through interactive story-driven adventures. Each skill transforms Claude into a narrative learning guide with missions, comic panel visuals, and exercises grounded in real documentation.",
+      "description": "Learn Bun, Docker, Kubernetes, React, TypeScript, Node.js, Python, Next.js, Go, Mastra, C/C++, and Stagehand through interactive story-driven adventures. Each skill transforms Claude into a narrative learning guide with story-driven chapters, hands-on exercises, and real documentation.",
       "skills_glob": "skills/*/SKILL.md"
     }
   ]
