@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-02-26T21:17:17.929Z",
-  "totalSessions": 6,
+  "generatedAt": "2026-02-28T18:49:06.990Z",
+  "totalSessions": 7,
   "sessions": [
     {
       "name": "learn-bun-space-station-beginner",
@@ -86,6 +86,20 @@
       "description": "Interactive narrative learning session that teaches React through a Modern Underworld adventure at beginner level. Use this session when you want to learn React through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
       "path": "sessions/learn-react-modern-underworld-beginner/SKILL.md",
       "qualityScore": 7.2
+    },
+    {
+      "name": "learn-mistral-modern-underworld-intermediate",
+      "subject": "Mistral AI",
+      "subjectKey": "mistral",
+      "category": "technology",
+      "setting": "modern-underworld",
+      "conflict": "heist-infiltration",
+      "archetype": "team-ensemble",
+      "tone": "urgent",
+      "difficulty": "intermediate",
+      "description": "Interactive narrative learning session that teaches Mistral AI through a Modern Underworld adventure at intermediate level. Use this session when you want to learn Mistral AI through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
+      "path": "sessions/learn-mistral-modern-underworld-intermediate/SKILL.md",
+      "qualityScore": 6.8
     }
   ]
 }
