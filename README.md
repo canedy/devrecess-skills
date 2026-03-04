@@ -45,9 +45,9 @@ Learn technology through interactive, narrative-driven adventures. Each session 
 | **Next.js** | Modern Underworld | Coming soon | Coming soon | Coming soon |
 | **Go** | Dark Fantasy | Coming soon | Coming soon | Coming soon |
 | **Stagehand** | Space Station | Coming soon | Coming soon | Coming soon |
-| **Mistral AI** | Modern Underworld | Coming soon | [Intermediate](sessions/learn-mistral-modern-underworld-intermediate/SKILL.md) | Coming soon |
+| **Rive** | Modern Underworld | Coming soon | [Intermediate](sessions/learn-rive-modern-underworld-intermediate/SKILL.md) | Coming soon |
 
-**7 of 36 sessions available.** New sessions added regularly.
+**8 of 36 sessions available.** New sessions added regularly.
 ## Settings
 
 Each session takes place in one of 5 world settings, paired with composable conflict types, character archetypes, and tones:
