@@ -33,7 +33,7 @@ Learn technology through interactive, narrative-driven adventures. Each session 
 
 | Subject | Setting | Beginner | Intermediate | Advanced |
 |---|---|---|---|---|
-| **Bun** | Space Station | [Beginner](sessions/learn-bun-space-station-beginner/SKILL.md) | Coming soon | Coming soon |
+| **Bun** | Space Station | [Beginner](sessions/learn-bun-space-station-beginner/SKILL.md) | Coming soon | [Advanced](sessions/learn-bun-space-station-advanced/SKILL.md) |
 | **Docker** | Noir City | [Beginner](sessions/learn-docker-noir-city-beginner/SKILL.md) | Coming soon | Coming soon |
 | **Kubernetes** | Space Station | Coming soon | [Intermediate](sessions/learn-kubernetes-space-station-intermediate/SKILL.md) | Coming soon |
 | **Mastra** | Fantasy Realm | Coming soon | [Intermediate](sessions/learn-mastra-fantasy-realm-intermediate/SKILL.md) | Coming soon |
@@ -45,9 +45,9 @@ Learn technology through interactive, narrative-driven adventures. Each session 
 | **Next.js** | Modern Underworld | Coming soon | Coming soon | Coming soon |
 | **Go** | Dark Fantasy | Coming soon | Coming soon | Coming soon |
 | **Stagehand** | Space Station | Coming soon | Coming soon | Coming soon |
-| **Rive** | Modern Underworld | Coming soon | [Intermediate](sessions/learn-rive-modern-underworld-intermediate/SKILL.md) | Coming soon |
+| **Mistral AI** | Modern Underworld | Coming soon | [Intermediate](sessions/learn-mistral-modern-underworld-intermediate/SKILL.md) | Coming soon |
 
-**8 of 36 sessions available.** New sessions added regularly.
+**9 of 36 sessions available.** New sessions added regularly.
 ## Settings
 
 Each session takes place in one of 5 world settings, paired with composable conflict types, character archetypes, and tones:

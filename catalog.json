@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-03-04T01:55:46.139Z",
-  "totalSessions": 7,
+  "generatedAt": "2026-03-06T03:13:25.976Z",
+  "totalSessions": 8,
   "sessions": [
     {
       "name": "learn-bun-space-station-beginner",
@@ -15,6 +15,20 @@
       "difficulty": "beginner",
       "description": "Interactive narrative learning session that teaches Bun through a Space Station adventure at beginner level. Use this session when you want to learn Bun through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
       "path": "sessions/learn-bun-space-station-beginner/SKILL.md",
+      "qualityScore": 8.2
+    },
+    {
+      "name": "learn-bun-space-station-advanced",
+      "subject": "Bun",
+      "subjectKey": "bun",
+      "category": "technology",
+      "setting": "space-station",
+      "conflict": "survival-urgency",
+      "archetype": "mentor-student",
+      "tone": "epic",
+      "difficulty": "advanced",
+      "description": "Interactive narrative learning session that teaches Bun through a Space Station adventure at advanced level. Use this session when you want to learn Bun through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
+      "path": "sessions/learn-bun-space-station-advanced/SKILL.md",
       "qualityScore": 6.8
     },
     {
@@ -88,17 +102,17 @@
       "qualityScore": 7.2
     },
     {
-      "name": "learn-rive-modern-underworld-intermediate",
-      "subject": "Rive",
-      "subjectKey": "rive",
+      "name": "learn-mistral-modern-underworld-intermediate",
+      "subject": "Mistral AI",
+      "subjectKey": "mistral",
       "category": "technology",
       "setting": "modern-underworld",
       "conflict": "heist-infiltration",
-      "archetype": "lone-wolf",
-      "tone": "dry-wit",
+      "archetype": "team-ensemble",
+      "tone": "urgent",
       "difficulty": "intermediate",
-      "description": "Interactive narrative learning session that teaches Rive through a Modern Underworld adventure at intermediate level. Use this session when you want to learn Rive through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
-      "path": "sessions/learn-rive-modern-underworld-intermediate/SKILL.md",
+      "description": "Interactive narrative learning session that teaches Mistral AI through a Modern Underworld adventure at intermediate level. Use this session when you want to learn Mistral AI through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
+      "path": "sessions/learn-mistral-modern-underworld-intermediate/SKILL.md",
       "qualityScore": 6.8
     }
   ]
