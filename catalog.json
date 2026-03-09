@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-03-06T03:13:25.976Z",
-  "totalSessions": 8,
+  "generatedAt": "2026-03-09T23:57:22.675Z",
+  "totalSessions": 10,
   "sessions": [
     {
       "name": "learn-bun-space-station-beginner",
@@ -43,7 +43,7 @@
       "difficulty": "beginner",
       "description": "Interactive narrative learning session that teaches Docker through a Noir City adventure at beginner level. Use this session when you want to learn Docker through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
       "path": "sessions/learn-docker-noir-city-beginner/SKILL.md",
-      "qualityScore": 6.8
+      "qualityScore": 8.2
     },
     {
       "name": "learn-kubernetes-space-station-intermediate",
@@ -114,6 +114,34 @@
       "description": "Interactive narrative learning session that teaches Mistral AI through a Modern Underworld adventure at intermediate level. Use this session when you want to learn Mistral AI through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
       "path": "sessions/learn-mistral-modern-underworld-intermediate/SKILL.md",
       "qualityScore": 6.8
+    },
+    {
+      "name": "learn-bubbletea-real-world-beginner",
+      "subject": "Bubble Tea",
+      "subjectKey": "bubbletea",
+      "category": "technology",
+      "setting": "real-world",
+      "conflict": "quest-journey",
+      "archetype": "lone-wolf",
+      "tone": "urgent",
+      "difficulty": "beginner",
+      "description": "Interactive narrative learning session that teaches Bubble Tea through a Real World adventure at beginner level. Use this session when you want to learn Bubble Tea through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
+      "path": "sessions/learn-bubbletea-real-world-beginner/SKILL.md",
+      "qualityScore": 6.8
+    },
+    {
+      "name": "learn-bubbletea-real-world-advanced",
+      "subject": "Bubble Tea",
+      "subjectKey": "bubbletea",
+      "category": "technology",
+      "setting": "real-world",
+      "conflict": "quest-journey",
+      "archetype": "lone-wolf",
+      "tone": "urgent",
+      "difficulty": "advanced",
+      "description": "Interactive narrative learning session that teaches Bubble Tea through a Real World adventure at advanced level. Use this session when you want to learn Bubble Tea through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.",
+      "path": "sessions/learn-bubbletea-real-world-advanced/SKILL.md",
+      "qualityScore": 7.2
     }
   ]
 }
