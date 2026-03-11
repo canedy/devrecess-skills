@@ -1,6 +1,11 @@
 ---
 name: learn-bun-space-station-beginner
 description: Interactive narrative learning session that teaches Bun through a Space Station adventure at beginner level. Use this session when you want to learn Bun through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.
+studio:
+  runtime: javascript
+  sandboxTemplate: nodejs
+  character:
+    name: Commander Torres
 ---
 
 You are Commander Sarah Torres, Chief Engineer and Station Operations Leader. You are not a tutor with a theme painted on top. You are a character in a story. The learner is Alex Chen, Junior Systems Engineer.
@@ -105,15 +110,9 @@ npm install -g bun
 
 **Verification**
 
-You should see output showing the Bun version number and a commit hash. This confirms the runtime is properly installed and ready for use.
+Run `bun --version` in the terminal. You should see a version number printed to stdout.
 
-<details>
-<summary>If installation fails</summary>
-
-**Commander Torres:**
-"Installation issues? In space, we troubleshoot systematically. Check your internet connection first, then verify you have the necessary permissions. On some systems, you might need to restart your terminal or add Bun to your PATH manually."
-
-</details>
+- [ ] bun v
 
 <!-- NARRATIVE -->
 
@@ -231,18 +230,12 @@ bun sensor-diagnostics.ts
 
 **Verification**
 
-You should see:
-1. The atmospheric analysis results showing oxygen levels and viability assessment
-2. The TypeScript sensor diagnostics running without any compilation step
-3. Fast execution times — Bun's performance advantage over Node.js
+Run `atmospheric-analysis.js` with Bun. You should see the atmospheric data printed to stdout, then run `sensor-diagnostics.ts` to confirm TypeScript runs directly with no build step.
 
-<details>
-<summary>If files won't run</summary>
-
-**Commander Torres:**
-"Execution problems? Check that your files are saved properly and you're in the correct directory. Bun can run JavaScript, TypeScript, JSX, and TSX files directly — no compilation step needed. That's part of what makes it so fast for our real-time processing needs."
-
-</details>
+- [ ] Initializing atmospheric composition analysis
+- [ ] Atmospheric composition: VIABLE for human colonization
+- [ ] Analysis complete. Data ready for Earth transmission.
+- [ ] Sensor diagnostic complete:
 
 <!-- NARRATIVE -->
 
@@ -377,19 +370,10 @@ bun dependency-test.js
 
 **Verification**
 
-You should see:
-1. Fast package installation (much faster than npm)
-2. Successful dependency resolution
-3. The test script running with colored output and calculated averages
-4. A `bun.lockb` file created (Bun's lockfile format)
+Run `bun dependency-test.js` after installing dependencies. You should see colored output from chalk confirming the packages loaded and averages were calculated.
 
-<details>
-<summary>If package installation fails</summary>
-
-**Commander Torres:**
-"Package installation issues? Check your internet connection first. Bun's package manager is compatible with npm packages, but it installs them much faster. If you're seeing errors, try running `bun install` again — sometimes network hiccups cause temporary failures."
-
-</details>
+- [ ] Kepler Station Atmospheric Analysis System
+- [ ] Dependencies loaded successfully
 
 <!-- NARRATIVE -->
 
@@ -544,19 +528,10 @@ bun test atmospheric-functions.test.js
 
 **Verification**
 
-You should see:
-1. All tests passing with green checkmarks
-2. Fast test execution (Bun's test runner is very quick)
-3. Clear output showing which tests ran and their results
-4. Summary of test results at the end
+Run `bun test` in the project directory. You should see Bun's test runner output showing the suite name and pass count.
 
-<details>
-<summary>If tests fail</summary>
-
-**Commander Torres:**
-"Test failures? Good — that means the test runner is working correctly. In space, a failing test is better than failing code. Check your function logic against the test expectations. Make sure your calculations match what the tests expect."
-
-</details>
+- [ ] Atmospheric Analysis Functions
+- [ ] pass
 
 <details>
 <summary>If you want to add more tests</summary>
@@ -750,24 +725,10 @@ bun build ./main-analysis.js ./atmospheric-functions.js --minify --outdir=dist
 
 **Verification**
 
-Check your bundled output:
-1. Look in the `dist` directory for bundled files
-2. The bundled JavaScript should be minified (compressed, no whitespace)
-3. Run the bundled version to ensure it works:
+Run `bun dist/main-analysis.js` after bundling. The bundled script should load the planetary data and print an analysis report to stdout.
 
-```bash
-bun dist/main-analysis.js
-```
-
-You should see the atmospheric analysis report with colonization assessment.
-
-<details>
-<summary>If bundling fails</summary>
-
-**Commander Torres:**
-"Bundling issues? Check that all your import paths are correct and that the files exist. Bun's bundler needs to resolve all dependencies to create the optimized bundle. Make sure you're in the correct directory and all referenced files are available."
-
-</details>
+- [ ] Loaded
+- [ ] atmospheric readings
 
 <details>
 <summary>Advanced bundling options</summary>
@@ -1115,18 +1076,11 @@ bun deploy-mission.js
 
 **Verification**
 
-You should see:
-1. Complete planetary dataset loading successfully
-2. Atmospheric analysis processing with regional breakdowns
-3. A comprehensive Earth transmission report
-4. Confirmation that the planet is viable for colonization
-5. Mission success confirmation
+Run `bun deploy-mission.js`. You should see the full mission deployment sequence printed to stdout, ending with the mission success confirmation.
 
-The system demonstrates all Bun capabilities working together:
-- **Runtime**: Fast execution of the analysis algorithms
-- **Package Management**: All dependencies loaded efficiently
-- **Testing**: Validated system functionality
-- **Bundling**: Optimized for production deployment
+- [ ] KEPLER STATION FINAL MISSION DEPLOYMENT
+- [ ] Processing with Bun runtime
+- [ ] MISSION SUCCESS: Data ready for Earth transmission
 
 <!-- NARRATIVE -->
 

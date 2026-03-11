@@ -1,6 +1,11 @@
 ---
 name: learn-bun-space-station-advanced
 description: Interactive narrative learning session that teaches Bun through a Space Station adventure at advanced level. Use this session when you want to learn Bun through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.
+studio:
+  runtime: javascript
+  sandboxTemplate: nodejs
+  character:
+    name: Commander Torres
 ---
 
 You are Commander Elena Torres, Chief Engineer and Station Commander. You are not a tutor with a theme painted on top. You are a character in a story. The learner is Alex Chen, Junior Systems Engineer.
@@ -92,17 +97,11 @@ bun station-test.js
 
 **Verification**
 
-You should see output like:
-```
-Kepler Station systems: ONLINE
-Runtime environment: Bun
-Status: Ready for system rebuild
-```
+Run `bun station-test.js`. You should see three lines confirming the runtime is active.
 
-If you see this output, Bun is installed and working correctly. If you encounter any errors, check that:
-- Your terminal was restarted after installation
-- The installation completed without errors
-- You're running the command from the correct directory
+- [ ] Kepler Station systems: ONLINE
+- [ ] Runtime environment: Bun
+- [ ] Status: Ready for system rebuild
 
 <!-- NARRATIVE -->
 
@@ -242,18 +241,11 @@ process.on('SIGINT', () => {
 
 **Verification**
 
-Run the life support monitor:
-```bash
-bun index.js
-```
+Run `bun index.js`. You should see the monitor initialize and begin streaming sensor readings.
 
-You should see:
-- A startup message indicating the system is online
-- Real-time sensor readings from different station sections
-- Color-coded status indicators (green for normal, yellow/red for warnings)
-- Timestamps for each reading
-
-Let it run for about 30 seconds to see multiple sections being monitored, then stop it with Ctrl+C.
+- [ ] KEPLER STATION LIFE SUPPORT MONITOR
+- [ ] Initializing atmospheric monitoring systems
+- [ ] Life support monitoring: ONLINE
 
 Check that your `package.json` includes the dependencies:
 ```bash
@@ -577,22 +569,11 @@ bun build index.js --outdir dist --target bun
 
 **Verification**
 
-First, test the unbundled version:
-```bash
-bun index.js
-```
+Run `bun index.js`. You should see the navigation matrix initialize and begin streaming orbital data.
 
-Then test the bundled version:
-```bash
-bun dist/index.js
-```
-
-Both should display:
-- Navigation system initialization
-- Real-time position and velocity data for the station
-- Supply ship tracking information
-- Rendezvous calculations and ETA
-- Communication status updates
+- [ ] KEPLER STATION NAVIGATION MATRIX
+- [ ] Navigation Matrix: OPERATIONAL
+- [ ] RENDEZVOUS DATA
 
 Let it run for about 30 seconds to see multiple navigation updates, then stop with Ctrl+C.
 
@@ -1101,19 +1082,12 @@ bun test
 
 **Verification**
 
-The test runner should show:
-- All tests passing (green checkmarks)
-- Coverage of signal processing, protocol handling, and transmission management
-- Clear error messages for any failing tests
-- Summary of test results
+Run `bun test`. You should see all three test suites pass.
 
-If any tests fail, examine the error messages and fix the issues before proceeding. You can run specific test files:
-
-```bash
-bun test test/signal-processor.test.js
-bun test test/protocol-handler.test.js
-bun test test/transmission-manager.test.js
-```
+- [ ] SignalProcessor
+- [ ] ProtocolHandler
+- [ ] TransmissionManager
+- [ ] pass
 
 You can also run tests with more verbose output:
 ```bash
@@ -1521,26 +1495,11 @@ bun build index.js --outdir dist --target bun --minify
 
 **Verification**
 
-Test in development mode:
-```bash
-bun run index.js
-```
+Run `bun run index.js`. You should see the communication array deploy and confirm it is operational.
 
-Test the production build:
-```bash
-NODE_ENV=production bun dist/index.js
-```
-
-Compare the behavior between development and production modes:
-- Development: More verbose logging, lower success rates, debug information
-- Production: Minimal logging, higher reliability, emergency protocols active
-
-You should see:
-- System initialization with environment-specific configuration
-- Successful transmission of emergency and normal priority messages
-- Different logging levels based on environment
-- Backup processes running in production mode
-- Graceful error handling and retry logic
+- [ ] KEPLER STATION - CRITICAL DEPLOYMENT
+- [ ] Communication array deployed successfully
+- [ ] Communication array operational
 
 <!-- NARRATIVE -->
 

@@ -1,6 +1,11 @@
 ---
 name: learn-mistral-modern-underworld-intermediate
 description: Interactive narrative learning session that teaches Mistral AI through a Modern Underworld adventure at intermediate level. Use this session when you want to learn Mistral AI through immersive story-driven chapters, hands-on exercises, and tasks grounded in real, up-to-date documentation.
+studio:
+  runtime: python
+  sandboxTemplate: python
+  character:
+    name: Vex
 ---
 
 You are Viktor Kozlov, veteran data liberation crew leader. You are not a tutor with a theme painted on top. You are a character in a story. The learner is Maya Chen, AI Integration Specialist.
@@ -143,24 +148,11 @@ except Exception as e:
 
 **Verification**
 
-Run your script. You should see output like:
-```
-SENTINEL Counter-Intelligence System
-Status: ONLINE
-Response: Connection established
-First contact protocol: SUCCESS
-```
+Run your script. The output must begin with the system banner and end with the protocol result.
 
-If you encounter errors:
-- Check your API key is correct and active
-- Verify your internet connection
-- Ensure the mistralai package installed correctly
-
-<details>
-<summary>If you're getting authentication errors...</summary>
-
-Make sure your API key is valid and has the correct permissions. You can test it by logging into the Mistral AI console and checking your API key status.
-</details>
+- [ ] SENTINEL Counter-Intelligence System
+- [ ] Status: ONLINE
+- [ ] First contact protocol: SUCCESS
 
 <details>
 <summary>If you're getting import errors...</summary>
@@ -354,35 +346,10 @@ if __name__ == "__main__":
 
 **Verification**
 
-Run your infiltration agent:
+Run `python infiltration_agent.py`. You should see two analysis sections printed to stdout.
 
-```bash
-python infiltration_agent.py
-```
-
-You should see detailed analysis output that includes:
-- Pattern recognition in the sample communications
-- Identified potential vulnerabilities
-- Tactical recommendations
-- Communication style profiling
-
-The agent should demonstrate understanding of AI communication analysis and provide actionable intelligence.
-
-<details>
-<summary>If the analysis seems too generic...</summary>
-
-Adjust the temperature parameter (try 0.1 for more focused responses) or refine the system message to be more specific about the type of analysis you need.
-</details>
-
-<details>
-<summary>If you want more detailed analysis...</summary>
-
-Add specific analysis categories to your prompts:
-- Logical consistency checks
-- Emotional/bias indicators
-- Response time patterns
-- Defensive mechanism triggers
-</details>
+- [ ] === INFILTRATION AGENT ANALYSIS ===
+- [ ] === COMMUNICATION PROFILE ===
 
 <!-- NARRATIVE -->
 
@@ -614,27 +581,11 @@ if __name__ == "__main__":
 
 **Verification**
 
-Run your precision targeting system:
+Run `python precision_targeting.py`. You should see three output sections printed in sequence.
 
-```bash
-python precision_targeting.py
-```
-
-You should see:
-1. Expert-level analysis of the quantum encryption metadata
-2. Training data preparation and saving
-3. Fine-tuning job configuration details
-
-The system should demonstrate understanding of quantum cryptography concepts and provide technical analysis suitable for the heist mission.
-
-<details>
-<summary>If the analysis lacks technical depth...</summary>
-
-Enhance the domain expert prompt with more specific quantum cryptography knowledge areas:
-- Specific protocols (BB84, E91, SARG04)
-- Mathematical foundations (quantum mechanics, information theory)
-- Implementation vulnerabilities (photon number splitting, detector blinding)
-</details>
+- [ ] === PRECISION TARGETING ANALYSIS ===
+- [ ] === TRAINING DATA PREPARATION ===
+- [ ] === FINE-TUNING JOB SETUP ===
 
 <details>
 <summary>If you want to understand the fine-tuning process better...</summary>
@@ -934,37 +885,11 @@ if __name__ == "__main__":
 
 **Verification**
 
-Run your coordinated strike system:
+Run `python coordinated_strike.py`. You should see the mission launch header, coordination results, and a tactical summary.
 
-```bash
-python coordinated_strike.py
-```
-
-You should see:
-1. Simultaneous deployment of multiple specialized agents
-2. Coordination effectiveness metrics
-3. Tactical summary of each agent's performance
-4. Detailed reports from each agent
-
-The system should demonstrate successful multi-agent coordination with different specialized roles working together.
-
-<details>
-<summary>If agents are taking too long to respond...</summary>
-
-The system uses asyncio to run agents in parallel. If responses are slow:
-- Check your internet connection
-- Consider reducing the complexity of mission parameters
-- Monitor the execution_time metrics to identify bottlenecks
-</details>
-
-<details>
-<summary>If coordination seems ineffective...</summary>
-
-Enhance the mission parameters with more specific objectives:
-- Add precise timing requirements
-- Include specific success criteria
-- Define clearer coordination protocols between agents
-</details>
+- [ ] === INITIATING COORDINATED STRIKE ===
+- [ ] === COORDINATION RESULTS ===
+- [ ] === TACTICAL SUMMARY ===
 
 <!-- NARRATIVE -->
 
@@ -1393,38 +1318,11 @@ if __name__ == "__main__":
 
 **Verification**
 
-Run your adaptive countermeasures system:
+Run `python adaptive_countermeasures.py`. You should see the deployment header, optimization analysis, and parameter summary printed to stdout.
 
-```bash
-python adaptive_countermeasures.py
-```
-
-You should see:
-1. Highly optimized agent deployments with custom parameters
-2. Performance effectiveness analysis showing optimization impact
-3. Parameter optimization summaries
-4. Detailed performance metrics for each optimized agent
-
-The system should demonstrate maximum optimization across all parameters—prompts, API settings, and response patterns.
-
-<details>
-<summary>If optimization scores seem low...</summary>
-
-The scoring system is intentionally strict. To improve scores:
-- Experiment with different temperature values (0.1-0.3 for precision tasks)
-- Adjust max_tokens based on mission requirements
-- Fine-tune frequency_penalty to avoid repetitive patterns
-</details>
-
-<details>
-<summary>If you want to understand the optimization strategies...</summary>
-
-The system optimizes multiple dimensions:
-- **Prompt Engineering**: Creates unpredictable, precise prompts
-- **Parameter Tuning**: Adjusts temperature, top_p, tokens for specific missions
-- **Response Analysis**: Measures precision, speed, and stealth characteristics
-- **Adaptive Strategies**: Varies approaches to avoid pattern detection
-</details>
+- [ ] === DEPLOYING ADAPTIVE COUNTERMEASURES ===
+- [ ] === OPTIMIZATION EFFECTIVENESS ANALYSIS ===
+- [ ] === PARAMETER OPTIMIZATION SUMMARY ===
 
 <!-- NARRATIVE -->
 
