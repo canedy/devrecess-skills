@@ -106,3 +106,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
 - Requesting new subjects or settings
 - Fixing issues with existing sessions (outdated APIs, broken examples)
 - Improving content quality
+
+## Interaction Style
+
+When user asks to do something, execute it immediately rather than asking clarifying questions — especially for debugging tasks. If something is ambiguous, make the most reasonable choice and explain what you did.
+
+## Git Workflow
+
+When user asks to merge or update a PR, merge directly to main unless explicitly told to create a new PR. Do not create PRs for completed work.
